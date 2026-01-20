@@ -45,7 +45,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Fidalgo TV - Detalhes do Filme</title>
+    <title>Fidalgo TV - Detalhes</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -54,17 +54,17 @@
         <a href="index.html">Voltar</a>
     </header>
 
-    <section class="movie-player">
+    <section class="movie-player" id="filme1">
         <h2>Filme 1</h2>
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="100%" height="500" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" width="100%" height="500" allowfullscreen></iframe>
     </section>
 
-    <section class="movie-player">
+    <section class="movie-player" id="filme2">
         <h2>Filme 2</h2>
-        <iframe src="https://www.youtube.com/embed/oHg5SJYRHA0" width="100%" height="500" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" width="100%" height="500" allowfullscreen></iframe>
     </section>
 
-    <section class="movie-player">
+    <section class="movie-player" id="filme3">
         <h2>Filme 3</h2>
         <iframe src="https://www.youtube.com/embed/6_b7RDuLwcI" width="100%" height="500" allowfullscreen></iframe>
     </section>
@@ -79,5 +79,6 @@ header { background:#222; padding:20px; text-align:center; }
 .movie-item img { width:100%; border-radius:10px; }
 .movie-item h3 { margin-top:10px; }
 a { text-decoration:none; color:white; }
-// Por enquanto vazio, você pode adicionar carrossel ou animações depois
+.movie-player { padding:20px; text-align:center; }
+// Script limpo, você pode adicionar animações depois
 console.log("Fidalgo TV carregado!");
