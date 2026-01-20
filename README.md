@@ -71,14 +71,3 @@
 
 </body>
 </html>
-body { font-family: Arial, sans-serif; background:#111; color:#fff; margin:0; padding:0; }
-header { background:#222; padding:20px; text-align:center; }
-.movies { padding:20px; }
-.movie-list { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; }
-.movie-item { width:200px; text-align:center; }
-.movie-item img { width:100%; border-radius:10px; }
-.movie-item h3 { margin-top:10px; }
-a { text-decoration:none; color:white; }
-.movie-player { padding:20px; text-align:center; }
-// Script limpo, você pode adicionar animações depois
-console.log("Fidalgo TV carregado!");
